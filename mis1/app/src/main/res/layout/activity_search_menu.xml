@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/b"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:text="查找方式"/>
+    <Button
+        android:id="@+id/seachByshape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:background="#4169E1"
+        android:text="通过装备类型"/>
+    <Button
+        android:id="@+id/searchBycompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:background="#4169E1"
+        android:text="通过生产公司"/>
+    <Button
+        android:id="@+id/searchByuserange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:background="#4169E1"
+        android:text="通过使用范围"/>
+
+</LinearLayout>
